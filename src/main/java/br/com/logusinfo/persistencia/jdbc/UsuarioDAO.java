@@ -13,7 +13,7 @@ public class UsuarioDAO {
 		// TODO Auto-generated method stub
 		   Connection con = ConexaoFactory.getConnection();
 		String sql = "insert into usuario (nome, login, senha) values (?,?,?)";
-		
+				
 		
 		try {
 			PreparedStatement preparador = con.prepareStatement(sql);
